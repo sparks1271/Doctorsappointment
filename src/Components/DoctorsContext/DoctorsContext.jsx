@@ -11,7 +11,6 @@ const DoctorProvider = ({ children }) => {
       id: 1,
       name: 'Prerana',
       gender:"Female",
-      specializations:["Infertility"],
       fees:"1500",
       profilePicUrl: 'https://randomuser.me/api/portraits/women/68.jpg', 
       coverPicUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b', 
@@ -58,7 +57,6 @@ const DoctorProvider = ({ children }) => {
     {
       id: 2,
       name: 'Ravi Kumar',
-      specializations:["Dermatologist"],
       gender:"Male",
       fees:"1500",
       profilePicUrl: 'https://randomuser.me/api/portraits/men/85.jpg', 
@@ -107,7 +105,6 @@ const DoctorProvider = ({ children }) => {
       id: 3,
       name: 'Anita Desai',
       gender:"Female",
-      specializations:["Nutritionist"],
       fees:"1000",
       profilePicUrl: 'https://randomuser.me/api/portraits/women/79.jpg', 
       coverPicUrl: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0', 
@@ -156,7 +153,6 @@ const DoctorProvider = ({ children }) => {
       name: 'Sameer Patel',
       gender:"Male",
       fees:"1000",
-      specializations:["General Practitioner"],
       profilePicUrl: 'https://randomuser.me/api/portraits/men/65.jpg', // Random profile pic
       coverPicUrl: 'https://images.unsplash.com/photo-1495567720989-cebdbdd97913', // Random cover pic
       jobRole: 'General Practitioner',
