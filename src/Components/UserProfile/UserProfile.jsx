@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./Userprofile.css"
+import "./userprofile.css"
 
 const UserProfile = ({ doctor }) => {
     const {
